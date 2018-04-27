@@ -4,11 +4,6 @@ var mermaidConfig = {
 };
 mermaid.initialize(mermaidConfig);
 
-// KaTeX initialization
-document.addEventListener("DOMContentLoaded", function() {
-    renderMathInElement(document.body);
-});
-
 var articleMarkdown = document.getElementById('articleMarkdown');
 var articleHTML = document.getElementById('articleHTML');
 var stackedit = new Stackedit();
