@@ -1,2 +1,2 @@
 # StackeditJS-example
-An example of embedding Stackedit markdown editor/ WYSIWYG editor
+An simple example of implementing Stackedit markdown editor/ WYSIWYG editor
