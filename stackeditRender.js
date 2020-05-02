@@ -73,7 +73,7 @@ function katexRender(){
             var katexDefinition = currElement.textContent;
 
             try{
-                var katexHTML = katex.renderToString(katexDefinition);
+                var katexHTML = katex.renderToString(katexDefinition, {displayMode: currElement.className=="katex--display"});
                 currElement.insertAdjacentHTML('beforebegin', katexHTML);
                 currElement.remove();
             }
